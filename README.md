@@ -1,3 +1,6 @@
+# Maintained by MrPool-Labs
+
+
 # MrPool Ecosystem
 
 MrPool is a layered system designed for modeling, decisioning, and control in adversarial environments.
