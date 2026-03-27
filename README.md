@@ -1,4 +1,4 @@
-# MrPool Ecosystem
+# MrSanPool Ecosystem
 
 MrPool is a layered system designed for modeling, decisioning, and control in adversarial environments.
 
