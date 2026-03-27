@@ -24,6 +24,37 @@ The system is composed of three layers:
 - **mrsanpool-platform** → SaaS control plane and governance (private)  
 
 
+## Ecosystem diagram
+
+```text
+                    +----------------------+
+                    |   External Signals   |
+                    |  accounts / bots /   |
+                    |   API interactions   |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    |     mrpool-core      |
+                    |   modeling layer     |
+                    |   signal processing  |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    |  mrpool-enterprise   |
+                    |  decisioning layer   |
+                    | control logic        |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    | mrsanpool-platform   |
+                    | control plane        |
+                    | governance layer     |
+                    +----------------------+
+
+
 
 ## Layer relationship
 
