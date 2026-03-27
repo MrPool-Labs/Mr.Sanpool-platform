@@ -1,22 +1,29 @@
+# environment
 .env
-.env.example
 .venv/
-.mrsanpool/
+
+# python
 __pycache__/
 *.pyc
 *.egg-info/
-alembic/
-alembic.ini
-docker-compose.yml
-dev_up.sh
-docs/
-integrations/
+
+# private implementation
 mrsanpool_platform/
-requirements-dev.txt
+tests/
+integrations/
+alembic/
 scripts/
 security/
-tests/
+
+# infra
+docker-compose.yml
+dev_up.sh
+
+# static build / backup
 static/backup/
 static/static/
+
+# misc
 Makefile
 pyproject.toml
+requirements-dev.txt

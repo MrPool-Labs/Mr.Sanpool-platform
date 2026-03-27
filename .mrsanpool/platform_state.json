@@ -1,0 +1,22 @@
+{
+  "service_catalog": {
+    "svc-a": {
+      "name": "svc-a"
+    }
+  },
+  "deployment_registry": {
+    "dep-a": {
+      "name": "dep-a"
+    }
+  },
+  "runtime_observations": {
+    "run-a": {
+      "name": "run-a"
+    }
+  },
+  "node_registry": {
+    "node-a": {
+      "node_id": "node-a"
+    }
+  }
+}
