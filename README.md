@@ -27,13 +27,7 @@ The layers operate together as a pipeline:
 
 ```text
 signals → modeling → decision → action → governance
-```
 
-## More concretely
-
-```bash
-mrpool-core → mrpool-enterprise → mrsanpool-platform
-```
 
 ## Dependency model
 
