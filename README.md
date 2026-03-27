@@ -1,6 +1,6 @@
-# MrSanPool Ecosystem
+# MrPool Ecosystem
 
-MrSanPool is a layered system designed for modeling, decisioning, and control in adversarial environments.
+MrPool is a layered system designed for modeling, decisioning, and control in adversarial environments.
 
 It is built to address problems such as:
 
@@ -27,13 +27,13 @@ The layers operate together as a pipeline:
 
 ```text
 signals → modeling → decision → action → governance
+```
 
----
-## More concretely:
+## More concretely
 
+```bash
 mrpool-core → mrpool-enterprise → mrsanpool-platform
-
----
+```
 
 ## Dependency model
 
@@ -48,8 +48,6 @@ Without the enterprise and platform layers:
 mrpool-core remains a modeling foundation
 but not a complete operational system
 
----
-
 ## Layer responsibilities
 
 mrpool-core (public)
@@ -60,46 +58,36 @@ experimentation
 
 👉 https://github.com/MrPool-Labs/mrpool-core
 
----
-
-## mrpool-enterprise (private)
-
+### `mrpool-enterprise (private)`
 decisioning engines
 policy evaluation
 control strategies
 system integration
 
----
-
-## mrsanpool-platform (private)
-
+### `mrsanpool-platform (private)`
 tenant management
 access control
 operational dashboards
 governance workflows
 
----
-## Design principles
-
+### `Design principles`
 separation between modeling, decisioning, and control
 adversarial-aware system design
 control-oriented architecture
 modular and layered structure
 
----
-
-## Why this architecture
-
+### `Why this architecture`
 Adversarial environments require:
+
 continuous adaptation
 separation of concerns
 controlled exposure of logic
+
 This architecture allows:
+
 public research and modeling (mrpool-core)
 protected decisioning logic (enterprise)
 scalable operational control (platform)
-
----
 
 ## Access to full system
 
@@ -111,19 +99,12 @@ pilot programs
 partnerships
 enterprise agreements
 
----
-
-## Organization
-
+**Organization**
 Maintained by Mrpool-Labs
-
----
 
 ## Contact
 GitHub: https://github.com/MrPool-Labs
 Email: mrpoollabs@outlook.com
-
----
 
 ## Status
 
