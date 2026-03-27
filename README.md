@@ -55,6 +55,8 @@ The system is composed of three layers:
                     +----------------------+
 
 
+This ecosystem is intentionally structured to separate public modeling capabilities from private decisioning and governance layers.
+
 
 ## Layer relationship
 
