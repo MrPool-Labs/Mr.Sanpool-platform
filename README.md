@@ -27,7 +27,7 @@ The layers operate together as a pipeline:
 
 ```text
 signals → modeling → decision → action → governance
-
+```
 
 ## Dependency model
 
